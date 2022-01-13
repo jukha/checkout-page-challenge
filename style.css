@@ -124,8 +124,6 @@ input::-webkit-inner-spin-button {
 .calculator input[type=number] {
   -moz-appearance: textfield;
 }
-.count{
-    margin-left:0;}
 .count {
     background: none;
     border: none;
@@ -133,6 +131,7 @@ input::-webkit-inner-spin-button {
     width: 122px;
     width: 100%;
     font-weight: bold;
+    margin-left:0;
 }
 
 .btn {
