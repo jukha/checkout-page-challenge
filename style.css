@@ -222,6 +222,8 @@ button:focus {
     border-radius: 12px;
     padding: 10px;
 }
+.field select{
+    background: none;}
 
 .fas {
     color: #828282;
