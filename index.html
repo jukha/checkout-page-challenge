@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Devchallenges</title>
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>
+
+      <h2 class="checkout">checkout</h2>
+      <div class="container">
+        <article class="cart">
+          <div class="product">
+            <div class="product__list">
+              <div class="product__img"><img src="photo1.png" alt="" /></div>
+
+              <div class="special">
+                <div>
+                  <h3 class="product__name">vintage backbag</h3>
+                  <div>
+                    <span class="new-price">$54.99</span
+                    ><span class="old-price"><s>$94.99</s></span>
+                  </div>
+                </div>
+                <div class="calculator">
+                  <button class="btn btn--minus">-</button>
+                  <input
+                    class="count"
+                    type="number"
+                    name=""
+                    id=""
+                    value="1"
+                    readonly
+                  />
+                  <button class="btn btn--plus">+</button>
+                </div>
+              </div>
+            </div>
+            <div class="product__list">
+              <div class="product__img"><img src="photo2.png" alt="" /></div>
+
+              <div class="special">
+                <div>
+                  <h3 class="product__name">levi shoes</h3>
+                  <div>
+                    <span class="new-price">$74.99</span
+                    ><span class="old-price"><s>$194.99</s></span>
+                  </div>
+                </div>
+                <div class="calculator">
+                  <button class="btn btn--minus">-</button>
+                  <input
+                    class="count"
+                    type="number"
+                    name=""
+                    id=""
+                    value="1"
+                    readonly
+                  />
+                  <button class="btn btn--plus">+</button>
+                </div>
+              </div>
+            </div>
+            <div class="shipping">
+              <h3 class="shipping__title">shipping</h3>
+              <h3 class="shipping__price">$19</h3>
+            </div>
+            <div class="total">
+              <h3 class="total__title">total</h3>
+              <h3 class="total__price">$148.98</h3>
+            </div>
+          </div>
+        </article>
+        <article class="info">
+          <form action="" id="form">
+            <h3 class="contact">Contact information</h3>
+            <div class="contact-information">
+              <div class="email">
+                <label for="">e-mail</label>
+                <div class="email__box field">
+                  <i class="fas fa-envelope"></i>
+                  <input
+                    type="email"
+                    name=""
+                    id=""
+                    placeholder="Enter your email..." required
+                  />
+                </div>
+              </div>
+              <div class="phone">
+                <label for="">phone</label>
+                <div class="phone__box field">
+                  <i class="fas fa-phone-alt"></i>
+                  <input
+                    type="number"
+                    name=""
+                    id=""
+                    placeholder="Enter your phone..." required
+                  />
+                </div>
+              </div>
+            </div>
+
+            <h3 class="contact">Shipping address</h3>
+            <div class="shipping-address">
+              <div class="f-name">
+                <label for="">full name</label>
+                <div class="f-name__box field">
+                  <i class="fas fa-user-circle"></i>
+                  <input type="text" name="" id="" placeholder="Your name..." required />
+                </div>
+              </div>
+              <div class="address">
+                <label for="">address</label>
+                <div class="field">
+                  <i class="fas fa-home"></i
+                  ><input type="text" placeholder="Your address" required />
+                </div>
+              </div>
+              <div class="city">
+                <label for="">city</label>
+                <div class="field">
+                  <i class="fas fa-home"></i
+                  ><input type="text" placeholder="Your city" required />
+                </div>
+              </div>
+              <div class="residence">
+                <div class="country">
+                  <label for="">country</label>
+                  <div class="field country__field">
+                    <i class="fas fa-globe"></i
+                    >
+                       <select name="cars" id="cars">
+                         <option value="" disabled selected>Your country ...</option>
+  <option value="volvo">Pakistan</option>
+  <option value="saab">USA</option>
+  <option value="mercedes">Australia</option>
+
+</select>
+                  </div>
+                </div>
+                <div class="postal">
+                  <label for="">postal code</label>
+                  <div class="field postal__field">
+                    <i class="fas fa-envelope"></i
+                    >
+                 
+                    <input type="text" placeholder="Your postal code" required/>
+                  </div>
+                </div>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" id="scales" name="scales"  />
+                <label for="scales">Save this information for next time</label>
+                </div>
+                <div class="continue-btn">
+                  <button>continue</button>
+                </div>
+              </div>
+            </div>
+            </div>
+          </form>
+        </article>
+      </div>
+    </div>
+    <footer class="author">
+      <p>created by <a  href="https://devchallenges.io/portfolio/jukha">@jukha -</a> devChallenges.io</p>
+    </footer>
+  </body>
+</html>
